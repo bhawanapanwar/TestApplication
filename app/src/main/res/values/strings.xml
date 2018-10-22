@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TestApplication</string>
+    <string name="api_key">AIzaSyAb1Q2Z_iGprerNcAOO32dHaEuhkZw3Ok0</string>
+
+    <string name="item1">item 1</string>
+    <string name="item2">item 2</string>
+    <string name="item3">item 3</string>
+    <string name="item4">item 4</string>
+    <string name="item5">item 5</string>
+    <string name="text1">Textview 1</string>
+    <string name="text2">Textview 2</string>
+    <string name="text3">Textview 3</string>
+    <string name="text">Text</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
+    <string name="blankFrag">Fragment</string>
+    <string name="mode">Mode of Transport:</string>
+    <string name="car">Car:</string>
+    <string name="train">Train:</string>
+    <string name="navigate">Navigate</string>
+</resources>
