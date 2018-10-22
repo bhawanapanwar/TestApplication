@@ -64,7 +64,7 @@ class SecondFragment : Fragment(), SecondView {
         }
 
         btNavigate.setOnClickListener{
-            presenter.getMap(mlist[position].latitude,mlist[position].longitude)
+            presenter.getMap(mlist[position].latitude,mlist[position].longitude,context!!)
         }
     }
 

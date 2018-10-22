@@ -1,5 +1,6 @@
 package com.example.bhawanap.testapplication.SecondModule
 
+import android.content.Context
 import android.support.v4.content.ContextCompat.startActivity
 import android.content.Intent
 import com.example.bhawanap.testapplication.MainApplication
@@ -16,12 +17,12 @@ class Presenter(var secondView: SecondView, val iteractor: Iterator) {
         iteractor.hitApi().subscribeWith(DataObserver(secondView))
     }
 
-    fun getMap(lat: String,long: String){
+    fun getMap(lat: String,long: String, context: Context){
 
-        val intent = Intent(MainApplication.applicationContext(), MapActivity::class.java)
+        val intent = Intent(context, MapActivity::class.java)
         intent.putExtra("lat",lat)
         intent.putExtra("long",long)
-        MainApplication.applicationContext().startActivity(intent)
+        context.startActivity(intent)
     }
 
 }
